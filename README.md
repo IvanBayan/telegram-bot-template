@@ -2,7 +2,7 @@
 Template for starting telegram bot development.
 _____
 
-Run `./start.sh` before usage(cleans LICENSE and reinit git repo at local folder)
+Run `./start.sh` before usage(removes `LICENSE` and reinit git repo in current folder)
 
 ## Usage:
 
