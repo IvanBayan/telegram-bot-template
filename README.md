@@ -1,9 +1,9 @@
-### SQLAlchemy Bot Template
+# SQLAlchemy Bot Template
 Template for starting telegram bot development.
 _____
 
 
-#### Usage:
+## Usage:
 
 First of all, you need to set `DB_URI` environment variable:
 `export DB_URI=sqlite:////tmptest`
