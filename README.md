@@ -1,5 +1,4 @@
 # SQLAlchemy Bot Template
-Template for starting telegram bot development.
 _____
 
 Run `./start.sh` before usage(removes `LICENSE` and reinit git repo in current folder)
@@ -11,7 +10,7 @@ First of all, you need to set `DB_URI` environment variable:
 Or add argument to command:
 `pytohn -m bot .. --db-uri sqlite:////tmp/test.db`
 
-SQLAlchemy supports PostgreSQL, MySQL, SQLite, Oracle, etc.
+SQLAlchemy supports PostgreSQL, MySQL, SQLite, Oracle, etc..
 You can read [here](https://docs.sqlalchemy.org/en/13/core/engines.html) about 
 supported db drivers
 
@@ -26,10 +25,10 @@ You can get your bot token [here](https://t.me/BotFather).
 Also, you can drop all data before proceed database setup, if you pass `--rm` 
 flag.
 
-##### Starting bot with webhook server
+##### Start bot with webhook server
 `python -m bot start-webhook --port 8080`
 
 I prefer to use `nginx` as reverse proxy for mine telegram bots. 
 
-##### Starting bot with polling worker
+##### Start bot with polling worker
 `pythom -m bot start-polling`
