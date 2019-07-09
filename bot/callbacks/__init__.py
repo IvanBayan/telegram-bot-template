@@ -1,7 +1,8 @@
-from telegram.ext import CommandHandler
+from telegram.ext import CommandHandler, MessageHandler, Filters
 
-from bot.callbacks.start import handle_start
+from bot.callbacks import sorry, start
 
 HANDLERS = [
-    CommandHandler("start", handle_start),
+    CommandHandler("start", start.handle_start),
+    MessageHandler(Filters.all, sorry.handle_unknown),
 ]
