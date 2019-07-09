@@ -1,7 +1,7 @@
 # SQLAlchemy Bot Template
 _____
 
-Run `./start.sh` before usage(removes `LICENSE` and reinit git repo in current folder)
+Run `./clean.sh` before usage(removes `LICENSE` and reinit git repo in current folder)
 
 ## Usage:
 
