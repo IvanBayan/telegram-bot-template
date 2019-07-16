@@ -4,10 +4,10 @@ SQLAlchemy bot template with simple console line interface.
 
 ## Usage:
 
-First of all, you need to set `DB_URI` environment variable:
-`export DB_URI=sqlite:////tmptest`
+First of all, you need to set `DB_URI` environment variable, sqlite for ex.:
+`export DB_URI=sqlite:////tmp/test.sqlite`
 Or add argument to command:
-`pytohn -m bot .. --db-uri sqlite:////tmp/test.db`
+`python -m bot .. --db-uri sqlite:////tmp/test.db`
 
 SQLAlchemy supports PostgreSQL, MySQL, SQLite, Oracle, etc..
 You can read [here](https://docs.sqlalchemy.org/en/13/core/engines.html) about 
