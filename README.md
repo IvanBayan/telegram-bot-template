@@ -1,7 +1,6 @@
 # Telegram Bot Template [![Built on: Telegram Bot Template](https://img.shields.io/badge/Built%20On-Telegram%20Bot%20Template-brightgreen.svg)](https://github.com/yarfuo/telegram-bot-template)
 SQLAlchemy bot template with simple console line interface.
 
-Run `./clean.sh` before usage(removes `LICENSE` and reinit git repo in current folder)
 
 ## Usage:
 
