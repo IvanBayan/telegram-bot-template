@@ -1,4 +1,4 @@
-# Telegram Bot Template [![Built on: Telegram Bot Template](https://img.shields.io/badge/Built%20On-Telegram%20Bot%20Template-brightgreen.svg)](https://github.com/yarfuo/telegram-bot-template)
+# Telegram Bot Template [![Built on: Telegram Bot Template](https://img.shields.io/badge/Built%20On-Telegram%20Bot%20Template-brightgreen.svg)](https://github.com/yarfuo/telegram-bot-template) ![Code style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)
 SQLAlchemy bot template with simple console line interface.
 
 
