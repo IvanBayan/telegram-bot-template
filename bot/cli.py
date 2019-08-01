@@ -24,7 +24,7 @@ def setup_database_engine(db_uri):
 
 @click.group()
 @click.option("--debug", default=False, is_flag=True)
-def cli(debug):
+def cli(debug: bool = False):
     level = "DEBUG" if debug else "WARNING"
     coloredlogs.install(level)
 
