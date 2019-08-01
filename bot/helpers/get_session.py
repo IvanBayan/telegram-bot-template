@@ -5,6 +5,7 @@ import bot
 
 def get_session(func):
     """Session decorator for handlers"""
+
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         session = bot.Session()
