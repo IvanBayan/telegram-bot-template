@@ -1,6 +1,6 @@
 from telegram.ext import CommandHandler, MessageHandler, Filters
 
-from callbacks import sorry, start
+from bot.callbacks import sorry, start
 
 HANDLERS = [
     CommandHandler("start", start.handle_start),
