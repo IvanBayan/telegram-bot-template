@@ -11,6 +11,7 @@ sqlalchemy = "*"
 click = "*"
 coloredlogs = {git = "https://github.com/xolox/python-coloredlogs"}
 black = "*"
+alembic = "*"
 
 [requires]
 python_version = "3.7"
