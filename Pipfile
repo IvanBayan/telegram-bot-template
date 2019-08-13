@@ -4,13 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
 
 [packages]
 telegram = {git = "https://github.com/python-telegram-bot/python-telegram-bot"}
 sqlalchemy = "*"
 click = "*"
 coloredlogs = {git = "https://github.com/xolox/python-coloredlogs"}
-black = "*"
 alembic = "*"
 
 [requires]
