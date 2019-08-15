@@ -9,7 +9,7 @@ from bot.helpers import get_session
 # Imaginary attacker can start bot with something other than `/start` via
 #  MTProto and raise exception somewhere(interaction with db), but who cares?
 @get_session
-def handle_start(session: Session, update: Update, context: CallbackContext):
+def handle_start(update: Update, context: CallbackContext, session: Session):
     del context  # Not used
     update.effective_chat.send_message("Hello world!")
     user = (

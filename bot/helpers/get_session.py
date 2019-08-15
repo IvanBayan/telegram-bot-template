@@ -1,5 +1,8 @@
 import functools
 
+from telegram import Update
+from telegram.ext import CallbackContext
+
 import bot
 
 
@@ -7,10 +10,10 @@ def get_session(func):
     """Session decorator for handlers"""
 
     @functools.wraps(func)
-    def wrapper(*args, **kwargs):
+    def wrapper(update: Update, context: CallbackContext):
         session = bot.Session()
         try:
-            result = func(session, *args, **kwargs)
+            result = func(update, context, session)
         except Exception as e:
             session.rollback()
             raise e
